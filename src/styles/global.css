@@ -284,10 +284,19 @@ a{ color:inherit; text-decoration:none; }
   75%{ transform:translate(-19px,-11px); }
   100%{ transform:translate(0,0); }
 }
+/* gentler drift for small screens */
+@keyframes floaty-sm{
+  0%{ transform:translate(0,0); }
+  25%{ transform:translate(5px,-6px); }
+  50%{ transform:translate(-4px,-10px); }
+  75%{ transform:translate(-6px,-3px); }
+  100%{ transform:translate(0,0); }
+}
 @media (max-width:720px){
   .tag-field{ transform:translateY(9%); } /* shift pills down so they don't crowd the top */
   .tag-anchor{ display:none; }
   .tag-anchor.keep{ display:block; }
+  .tag-bob{ animation-name:floaty-sm; } /* calmer motion on phones */
   .float-tag{ font-size:.78rem; padding:.42rem .85rem; }
 }
 @media (prefers-reduced-motion:reduce){
