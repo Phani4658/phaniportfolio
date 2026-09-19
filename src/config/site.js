@@ -60,6 +60,15 @@ export const CONFIG = {
     },
     {
       featured: false,
+      eyebrow: "Client work · Android & iOS",
+      title: "Friendli — Social Calling Platform",
+      desc: "Built end-to-end for a client: a React Native app where people discover creators and connect over audio and video, with per-minute billing against a coin wallet. Agora for calling, a modular Node/PostgreSQL backend handling real-time call billing, coin purchases and creator payouts, plus a React admin dashboard for approvals, moderation and revenue. Ships from a containerised AWS pipeline on ECS Fargate, with Terraform infrastructure and in-cloud release builds straight to Play.",
+      tags: ["React Native", "Node.js", "PostgreSQL", "Agora", "AWS"],
+      link: "#contact",
+      linkLabel: "Ask me about it",
+    },
+    {
+      featured: false,
       eyebrow: "Client work",
       title: "Sri Lakshmi Lavanya Jewellery",
       desc: "A catalogue site for a jewellery business, built end-to-end — storefront, backend, and an admin panel to manage the gold and silver collection.",
