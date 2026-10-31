@@ -46,7 +46,7 @@ export const CONFIG = {
       desc: "Your idea as a working web or mobile product — backend, payments, admin dashboard and cloud setup — built to launch, get real users, and keep growing.",
       includes: ["Web & mobile apps", "Payments & wallets", "Admin dashboard", "AWS deploy"],
       timeline: "Typically 4–8 weeks",
-      proof: "Friendli — Android & iOS app",
+      proof: "Friendli — live on Google Play",
     },
   ],
 
@@ -93,8 +93,8 @@ export const CONFIG = {
       title: "Friendli — Social Calling Platform",
       desc: "Built end-to-end for a client: a React Native app where people discover creators and connect over audio and video, with per-minute billing against a coin wallet. Agora for calling, a modular Node/PostgreSQL backend handling real-time call billing, coin purchases and creator payouts, plus a React admin dashboard for approvals, moderation and revenue. Ships from a containerised AWS pipeline on ECS Fargate, with Terraform infrastructure and in-cloud release builds straight to Play.",
       tags: ["React Native", "Node.js", "PostgreSQL", "Agora", "AWS"],
-      link: "#contact",
-      linkLabel: "Ask me about it",
+      link: "https://play.google.com/store/apps/details?id=com.infora.friendli",
+      linkLabel: "Get it on Google Play",
     },
     {
       featured: false,
