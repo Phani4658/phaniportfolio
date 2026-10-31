@@ -7,6 +7,7 @@ export default function Nav() {
         <a href="#top" className="nav-name">{CONFIG.name}</a>
         <div className="nav-links">
           <a href="#profile">Overview</a>
+          <a href="#services">Services</a>
           <a href="#work">Work</a>
           <a href="#skills">Skills</a>
           <a href="#journey">Journey</a>

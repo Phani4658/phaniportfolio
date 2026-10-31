@@ -2,6 +2,7 @@ import ScrollProgress from "./components/ScrollProgress.jsx";
 import Nav from "./components/Nav.jsx";
 import Hero from "./components/Hero.jsx";
 import Bento from "./components/Bento.jsx";
+import Services from "./components/Services.jsx";
 import Work from "./components/Work.jsx";
 import Skills from "./components/Skills.jsx";
 import Journey from "./components/Journey.jsx";
@@ -17,6 +18,7 @@ export default function App() {
       <main>
         <Hero />
         <Bento />
+        <Services />
         <Work />
         <Skills />
         <Journey />

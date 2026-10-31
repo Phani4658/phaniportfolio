@@ -20,6 +20,35 @@ export const CONFIG = {
   phone: "+91 96185 02227", // ← your phone
   location: "Nellore, India", // ← your city
   resumeUrl: "/phani-resume.pdf", // ← served from public/
+  siteUrl: "https://phanipeddapalem.vercel.app",
+
+  // what clients can hire me for — rendered in the Services section
+  services: [
+    {
+      eyebrow: "Websites",
+      title: "Business websites that bring in work",
+      desc: "A fast, mobile-first site with an admin panel, so you can update products, prices and content yourself — no developer needed for every change.",
+      includes: ["Design & build", "Admin panel", "SEO basics", "Hosting setup"],
+      timeline: "Typically 1–3 weeks",
+      proof: "Sri Lakshmi Lavanya Jewellery",
+    },
+    {
+      eyebrow: "Automation & AI",
+      title: "WhatsApp & AI automation",
+      desc: "Stop answering the same messages by hand. Bots that reply to FAQs, take bookings and orders, capture leads, and hand the tricky conversations to your team.",
+      includes: ["WhatsApp Business API", "AI triage", "CRM / sheet sync", "Follow-up flows"],
+      timeline: "Typically 2–4 weeks",
+      proof: "90K+ conversations at NxtPe",
+    },
+    {
+      eyebrow: "MVPs",
+      title: "MVPs for founders",
+      desc: "Your idea as a working web or mobile product — backend, payments, admin dashboard and cloud setup — built to launch, get real users, and keep growing.",
+      includes: ["Web & mobile apps", "Payments & wallets", "Admin dashboard", "AWS deploy"],
+      timeline: "Typically 4–8 weeks",
+      proof: "Friendli — Android & iOS app",
+    },
+  ],
 
   projects: [
     {

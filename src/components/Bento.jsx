@@ -43,8 +43,8 @@ export default function Bento() {
           </Cell>
           <Cell span="c-span2" i={2}>
             <span className="eyebrow">Status</span>
-            <h3>Open to work</h3>
-            <p>Full-time roles and select freelance projects.</p>
+            <h3>Taking projects</h3>
+            <p>Websites, automations and MVPs — plus full-time roles.</p>
           </Cell>
           <Cell span="c-span2" i={3}>
             <span className="eyebrow">Base</span>
